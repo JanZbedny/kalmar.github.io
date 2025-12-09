@@ -3,17 +3,12 @@ layout: default
 title: Home
 ---
 
-# Hi, I’m Tomek
+# Cześć jestem Tomek
 
-I build simple, fast websites and small tools.
-
-## Projects
-- Project One — short description. [Repo](#)
-- Project Two — short description. [Demo](#)
-- Project Three — short description. [Details](#)
+Strona stworzona z ciekawości.
 
 ## About
-A sentence or two about you and what you like working on.
+Będą zmiany wyglądu i treści.
 
 ## Contact
 Email: you@example.com 
