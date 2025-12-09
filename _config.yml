@@ -1,6 +1,3 @@
-title: Tomek
-description: Projects, notes, and contact
-theme: jekyll-theme-cayman
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+title: Kalmar2024
+author: JanZbedny
+remote_theme: mmistakes/minimal-mistakes  # lub inny motyw z GitHub
