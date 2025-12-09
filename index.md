@@ -16,4 +16,4 @@ I build simple, fast websites and small tools.
 A sentence or two about you and what you like working on.
 
 ## Contact
-Email: you@example.com · LinkedIn: [link](#)
+Email: you@example.com 
