@@ -132,44 +132,24 @@ html, body {
   overflow-x: hidden;
 }
 
-/* Rozciągnij główne kontenery do pełnej szerokości */
-.wrapper,
-.container,
-main,
-section,
-header,
-footer {
-  width: 100%;
-  max-width: 100%;
+/* Wyśrodkowanie i maksymalna szerokość dla treści CV */
+main#content, .page-content, .wrapper {
+  max-width: 900px;     /* szerokość treści */
+  margin: 0 auto;       /* wyśrodkowanie */
+  padding: 20px;        /* odstęp od brzegów */
+  box-sizing: border-box;
 }
 
-/* Cayman: poszerz wrapper treści */
-.page-content .wrapper {
-  max-width: none;     /* usuń stałe ograniczenie szerokości */
-  width: 100%;         /* pełna szerokość */
-  padding: 0 16px;     /* niewielkie marginesy wewnętrzne */
+/* Poprawa czytelności */
+.page-content h1,
+.page-content h2,
+.page-content h3 {
+  margin-top: 24px;
+  margin-bottom: 12px;
 }
 
-/* Obramowanie i media nieprzekraczające szerokości */
-img, video, canvas, iframe {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* Długie linie w kodzie/tekstach nie powinny „rozpychać” strony */
-pre, code {
-  white-space: pre-wrap;
-  word-break: break-word;
-}
-
-/* Jeśli gdziekolwiek masz sekcje ustawione na 100vw – nadpisz na 100% */
-section, header, footer {
-  max-width: 100%;
-}
-
-/* Siatki: uniknij sztywnej szerokości kolumn */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+.page-content p,
+.page-content ul {
+  line-height: 1.6;
+  font-size: 1.05rem;
 }
