@@ -39,7 +39,7 @@ layout: default
     </div>
   </div>
  </div>
-        
+ </div>        
 ## 💼 Doświadczenie zawodowe — Oś czasu
 <div class="timeline">
   <div class="entry">
