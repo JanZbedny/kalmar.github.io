@@ -1,5 +1,5 @@
 title: inż Tomasz Kowalczyk
-description: Moja strona
+description: Strona O Mnie.
 baseurl: ""
 url: "https://janzbedny.github.io"
 theme: jekyll-theme-cayman
@@ -10,7 +10,7 @@ plugins:
   - jekyll-sitemap
 
 menu:
-  - title: Strona główna
+  - title: O Mnie
     url: /
   - title: O mnie
     url: /about.md
