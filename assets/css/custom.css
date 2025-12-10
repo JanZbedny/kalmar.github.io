@@ -116,48 +116,67 @@ p {
     padding: 1.4rem;
   }
 }
-/* ============================
-   CV TIMELINE STYLES
-   ============================ */
-
+/* ---- Timeline & icons ---- */
 .timeline {
   position: relative;
   margin: 2rem 0;
-  padding-left: 30px;
-  border-left: 3px solid var(--accent, #007acc);
+  padding-left: 40px;
 }
 
 .timeline-item {
-  margin-bottom: 2rem;
   position: relative;
+  margin-bottom: 2.5rem;
+  padding-left: 25px;
 }
 
-.timeline-item::before {
-  content: "";
+.timeline-icon {
   position: absolute;
-  left: -11px;
-  top: 3px;
-  width: 16px;
-  height: 16px;
-  background: var(--accent, #007acc);
+  left: -15px;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border: 3px solid #007acc;
   border-radius: 50%;
-  border: 3px solid white;
-  box-shadow: 0 0 5px rgba(0,0,0,0.25);
+  color: #007acc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 0;
+  top: 35px;
+  width: 3px;
+  height: calc(100% - 35px);
+  background: #007acc;
 }
 
 .timeline-year {
   font-weight: bold;
   font-size: 1.1rem;
-  color: var(--accent, #007acc);
-  margin-bottom: 5px;
+  color: #007acc;
+  margin-bottom: 0.3rem;
 }
 
 .timeline-content h3 {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.2rem;
 }
 
 .timeline-content p {
-  margin: 0;
-  opacity: 0.85;
+  margin: 0.2rem 0 0;
+  color: #444;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 20px;
+  }
+  .timeline-icon {
+    left: -20px;
+  }
 }
