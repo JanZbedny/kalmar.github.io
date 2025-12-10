@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Dane osobowe
+---
 <html>
 <head>
     <title>Dane osobowe</title>
