@@ -66,14 +66,10 @@ body {
    ============================ */
 
 #content {
- main#content {
-  max-width: 800px;       /* maksymalna szerokość treści */
-  margin: 0 auto;         /* wyśrodkowanie */
-  padding: 2rem;          /* odstęp od krawędzi */
-  box-sizing: border-box; /* uwzględnia padding w szerokości */
-  line-height: 1.6;       /* lepsza czytelność tekstu */
-  font-size: 1.1rem;      /* większa czcionka dla treści */
-}  
+  margin-left: 280px;
+  padding: 2.2rem;
+  background: #fff;
+  min-height: 100vh;
 }
 
 /* More readable headings */
@@ -118,69 +114,5 @@ p {
   #content {
     margin-left: 0;
     padding: 1.4rem;
-  }
-}
-/* ---- Timeline & icons ---- */
-.timeline {
-  position: relative;
-  margin: 2rem 0;
-  padding-left: 40px;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 2.5rem;
-  padding-left: 25px;
-}
-
-.timeline-icon {
-  position: absolute;
-  left: -15px;
-  top: 0;
-  width: 30px;
-  height: 30px;
-  background: #fff;
-  border: 3px solid #007acc;
-  border-radius: 50%;
-  color: #007acc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-}
-
-.timeline-line {
-  position: absolute;
-  left: 0;
-  top: 35px;
-  width: 3px;
-  height: calc(100% - 35px);
-  background: #007acc;
-}
-
-.timeline-year {
-  font-weight: bold;
-  font-size: 1.1rem;
-  color: #007acc;
-  margin-bottom: 0.3rem;
-}
-
-.timeline-content h3 {
-  margin: 0;
-  font-size: 1.2rem;
-}
-
-.timeline-content p {
-  margin: 0.2rem 0 0;
-  color: #444;
-}
-
-/* Responsywność */
-@media (max-width: 768px) {
-  .timeline {
-    padding-left: 20px;
-  }
-  .timeline-icon {
-    left: -20px;
   }
 }
