@@ -1,5 +1,7 @@
 title: Tomasz Kowalczyk
 theme: jekyll-theme-cayman
+include:
+  - assets/css
 menu:
   - title: Dane osobowe
     url: /personal.html
