@@ -18,28 +18,14 @@ layout: default
 ## 🎓 Wykształcenie — Oś czasu
 
 
-
 ---
 
 ## 💼 Doświadczenie zawodowe — Oś czasu
 
-<div class="timeline">
-  {% for item in site.data.experience %}
-  <div class="timeline-item">
-    <span class="timeline-year">{{ item.year }}</span>
-    <span class="timeline-detail">{{ item.company }} — {{ item.position }}</span>
-  </div>
-  {% endfor %}
-</div>
-</div>
-
-</div>
 
 ---
 
 ## 🛠️ Umiejętności
-
-### 🔧 Techniczne
 - Linux, Windows Server  
 - Git, GitHub  
 - HTML / CSS / Jekyll  
