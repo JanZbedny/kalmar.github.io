@@ -1,0 +1,41 @@
+/* ==============================
+   POPRAWA CZYTELNOŚCI CAŁEGO TEKSTU
+   ============================== */
+
+/* Główne paragrafy */
+body, p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #222; /* ciemny, czytelny tekst */
+  font-weight: 400;
+}
+
+/* Nagłówki */
+h1, h2, h3 {
+  color: #111;
+  font-weight: 700;
+  margin-top: 1.4em;
+}
+
+/* Zwiększenie czytelności list */
+ul, ol {
+  padding-left: 1.4em;
+  margin-bottom: 1em;
+}
+
+/* Zwiększenie kontrastu linków */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Szerszy tekst w kontenerze – wygląda nowocześnie */
+.page-content {
+  max-width: 860px;
+  margin: auto;
+  padding: 30px;
+}
