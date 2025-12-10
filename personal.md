@@ -9,7 +9,6 @@ layout: default
 - Telefon: 111-222-333
 - E-mail: vvvvJan@protonmail.com
 - Lokalizacja: Olsztyn, Polska
----
 
 ## 💼 Doświadczenie zawodowe
 - 05.2019 – 12.2022 (3 lata 8 mies.)
