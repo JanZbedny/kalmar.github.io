@@ -116,3 +116,41 @@ p {
     padding: 1.4rem;
   }
 }
+/* ============================
+   CV TIMELINE STYLES
+   ============================ */
+
+.timeline {
+  border-left: 3px solid #0074d9;
+  margin-left: 1rem;
+  padding-left: 1.5rem;
+}
+
+.timeline .entry {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.timeline .entry::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #0074d9;
+  border-radius: 50%;
+  position: absolute;
+  left: -25px;
+  top: 5px;
+}
+
+.timeline .year {
+  font-weight: bold;
+  color: #0074d9;
+  margin-bottom: 0.3rem;
+}
+
+.timeline .detail {
+  background: #f7f7f7;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
