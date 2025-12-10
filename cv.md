@@ -13,9 +13,7 @@ layout: default
 
 ---
 ## 🎓 Wykształcenie — Oś czasu
-
 <div class="timeline">
-
   <div class="entry">
     <div class="icon">🎓</div>
     <div class="content">
@@ -24,7 +22,6 @@ layout: default
       <p>Administracja Sieciami Komputerowymi | Informatyka | Inżynier.</p>
     </div>
   </div>
-
   <div class="entry">
     <div class="icon">🎓</div>
     <div class="content">
@@ -41,12 +38,13 @@ layout: default
       <p>Ogólne.</p>
     </div>
   </div>
-
+ </div>
+ </div>
+ </div> 
+        
 ---
 ## 💼 Doświadczenie zawodowe — Oś czasu
-
 <div class="timeline">
-
   <div class="entry">
     <div class="icon">💼</div>
     <div class="content">
