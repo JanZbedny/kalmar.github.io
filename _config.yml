@@ -9,3 +9,5 @@ menu:
     url: /about.html
   - title: Doświadczenie zawodowe
     url: /experience.html
+  - title: CV
+    url: cv.md
