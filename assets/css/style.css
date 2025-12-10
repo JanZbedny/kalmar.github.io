@@ -26,7 +26,7 @@ body {
   width: 220px;
   padding: 2rem;
   background-color: var(--primary);
-  color: #fff;
+  color: #000;
   min-height: 100vh;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 #sidebar nav a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
