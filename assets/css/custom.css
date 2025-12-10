@@ -66,10 +66,14 @@ body {
    ============================ */
 
 #content {
-  margin-left: 280px;
-  padding: 2.2rem;
-  background: #fff;
-  min-height: 100vh;
+ main#content {
+  max-width: 800px;       /* maksymalna szerokość treści */
+  margin: 0 auto;         /* wyśrodkowanie */
+  padding: 2rem;          /* odstęp od krawędzi */
+  box-sizing: border-box; /* uwzględnia padding w szerokości */
+  line-height: 1.6;       /* lepsza czytelność tekstu */
+  font-size: 1.1rem;      /* większa czcionka dla treści */
+}  
 }
 
 /* More readable headings */
