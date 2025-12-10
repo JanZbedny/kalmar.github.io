@@ -2,6 +2,7 @@
 title: Dane osobowe
 layout: default
 ---
+<link rel="stylesheet" href="assets/css/overrides.css?v=1">
 
 ## 🧑‍💼 Dane osobowe
 - Imię i Nazwisko: Tomasz Kowalczyk
