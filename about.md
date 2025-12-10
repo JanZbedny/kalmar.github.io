@@ -2,6 +2,6 @@
 layout: default
 title: Wykształcenie
 ---
-## Kim jestem?
+## Olsztyńska Wyższa Szkoła Informatyki im. Prof Janusza Kotarbińskiego
 
 Nazywam się {{ site.author }} i jestem autorem tej strony.
