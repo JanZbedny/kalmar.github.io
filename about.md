@@ -17,7 +17,6 @@ title: Wykształcenie
   Liceum Ogólnokształcące im. Jana III Sobieskiego
 
 # Doświadczenie zawodowe
-
 - 05.2019 – 12.2022 (3 lata 8 mies.)
   ds. obsługi informatycznej Gmina Świętajno Świętajno
   Krótki opis stanowiska: Administracja systemami informatycznymi, zapewnienie bezpieczeństwa, redaktor strony urzędu,
