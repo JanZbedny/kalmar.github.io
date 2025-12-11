@@ -15,7 +15,7 @@ title: Wykształcenie
   Poziom wykształcenia: zawodowe
 - 09.1994 – 08.1998 (4 lata)
   Liceum Ogólnokształcące im. Jana III Sobieskiego
----
+  
 
 ## 💼 Doświadczenie zawodowe
 - 05.2019 – 12.2022 (3 lata 8 mies.)
@@ -24,4 +24,4 @@ title: Wykształcenie
   Magazynier LAC-MET Spółka z ograniczoną odpowiedzialnością Sp. k | Gnieźnieńska 2 12-100 Szczytno Krótki opis stanowiska: Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością, realizacja zamówień, przygotowanie, pakowanie i wysyłka towarów, wspieranie prac    działu handlowego.
 - 07.2010 – 07.2016 (6 lat 1 mies.) Magazynier Novum Wyposażenie Placów Zabaw Sławomir Chmieliński | Gnieźnieńska 2a 12-100 Szczytno   Krótki opis stanowiska: Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością, realizacja zamówień, przygotowanie, pakowanie    i wysyłka towarów, obsługa systemy do wypisywania przesyłek UPS World Ship 2012, wspieranie prac działu handlowego.
 
----
+
