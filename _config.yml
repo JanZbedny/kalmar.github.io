@@ -3,9 +3,7 @@ theme: jekyll-theme-cayman
 include:
   - assets/css
 menu:
-  - title: Strona główna
-    url: /
-  - title: Dane osobowe
+   - title: Dane osobowe
     url: /personal.html
   - title: Wykształcenie
     url: /about.html
