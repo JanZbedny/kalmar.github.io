@@ -62,3 +62,32 @@
     margin-left: 0;
   }
 }
+/* --- FORCE: content obok sidebaru (wymuszamy, by zadziałało) --- */
+#content,
+.page-content {
+  margin-left: 260px !important;       /* przesunięcie obok sidebaru */
+  padding: 2.2rem !important;
+  width: calc(100% - 260px) !important;/* zajmuje prawą część */
+  box-sizing: border-box !important;
+  background: #fff !important;
+  min-height: 100vh !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Jeśli Twój motyw używa wrapperów z innymi klasami – wymuszamy też je */
+.wrapper, .page-content .wrapper, main#content {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Mobile: przywróć normalne zachowanie */
+@media (max-width: 900px) {
+  #content, .page-content {
+    margin-left: 0 !important;
+    width: 100% !important;
+    padding: 1.4rem !important;
+  }
+}
