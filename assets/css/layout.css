@@ -21,18 +21,17 @@ body {
    SIDEBAR
 ============================ */
 
-/* ===========================
+/* ============================
    SIDEBAR – WYGLĄD
 =========================== */
-
 #sidebar {
     width: 260px;
     position: fixed;
-    top: 0;
+    top:  Njeg0;
     left: 0;
     height: 100vh;
-    background-color: #1e90ff;  /* tło sidebaru */
-    color: white;               /* kolor tekstu */
+    background-color: #000000;  /* czarne tło sidebaru */
+    color: white;               /* biała czcionka */
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
@@ -46,9 +45,9 @@ body {
 .sidebar-photo img {
     width: 120px;
     height: 120px;
-    border-radius: 50%;          /* okrągłe zdjęcie */
+    border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #ffffff;   /* ramka wokół avatara */
+    border: 4px solid #ffffff;
 }
 
 /* Nagłówek – imię */
@@ -57,6 +56,7 @@ body {
     text-align: center;
     margin-bottom: 1.5rem;
     font-weight: 700;
+    color: white; /* upewnienie się, że nagłówek jest biały */
 }
 
 /* Menu linki */
@@ -69,29 +69,40 @@ body {
     margin: 10px 0;
 }
 #sidebar nav ul li a {
-    color: white;               /* zwykły link */
+    color: white;               /* biała czcionka */
     text-decoration: none;
     font-weight: 600;
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* płynne przejście */
 }
 #sidebar nav ul li a:hover,
 #sidebar nav ul li a.active {
-    color: #ffd700;             /* kolor przy hover/aktywny */
+    color: #ff0000;             /* czerwony kolor przy hover/aktywny */
     text-decoration: underline;
 }
 
 /* Przycisk Pobierz CV */
-#sidebar .download-cv {
-    background-color: #ff4500;  /* tło przycisku */
-    color: white;               /* kolor tekstu */
-    border-radius: 8px;
-    padding: 10px 15px;
-    text-align: center;
+.download-btn {
     display: block;
+    background: #333333;       /* ciemnoszare tło przycisku */
+    color: white !important;
+    text-align: center;
+    padding: 12px 14px;
+    border-radius: 8px;
     text-decoration: none;
-    margin-top: 30px;
+    font-weight: 600;
+    margin-top: 20px;
 }
-#sidebar .download-cv:hover {
-    background-color: #e03e00;  /* efekt hover */
+.download-btn:hover {
+    background: #555555;       /* nieco jaśniejsze tło przy hover */
+    color: #ff0000 !important; /* czerwona czcionka przy hover */
+    text-decoration: underline;
+}
+
+/* Sekcja download przyklejona do dołu */
+.sidebar-download {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #333; /* ciemniejsza linia */
 }
 
 
