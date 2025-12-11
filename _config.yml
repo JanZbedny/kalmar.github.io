@@ -4,8 +4,6 @@ include:
   - assets/css
 
 menu:
-  - title: Strona główna
-    url: /
   - title: Dane osobowe
     url: /personal.html
   - title: Wykształcenie
@@ -14,4 +12,3 @@ menu:
     url: /experience.html
   - title: CV
     url: /cv.html
-
