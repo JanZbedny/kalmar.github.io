@@ -101,53 +101,81 @@ body {
 /* ============================
    CONTENT
 ============================ */
+/* ============================
+   CONTENT
+============================ */
 #content {
-  margin-left: 260px;            /* przesunięcie obok sidebar */
+  margin-left: 260px;
   padding: 2.2rem;
-  width: calc(100% - 260px);     /* zajmuje resztę szerokości */
+  width: calc(100% - 260px);
   background: #fff;
   min-height: 100vh;
   box-sizing: border-box;
   position: relative;
   z-index: 1;
+  max-width: 800px; /* Ogranicz szerokość treści */
+  margin: 0 auto; /* Wycentruj treść */
+  padding: 2.2rem 1.4rem; /* Dodaj odpowiedni padding */
 }
-/* Headings */
-h1, h2, h3, h4 {
+/* Poprawa czytelności tekstu */
+#content p {
+  margin: 0.9rem 0;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  color: #333; /* Ciemniejszy kolor tekstu */
+}
+
+/* Style dla nagłówków */
+#content h1,
+#content h2,
+#content h3,
+#content h4 {
   color: #111;
   font-weight: 600;
-  margin-top: 1.6rem;
-  margin-bottom: 0.6rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.3;
 }
-/* Lists */
-ul, ol {
-  padding-left: 1.4em;
-  margin-bottom: 1em;
+
+/* Style dla list */
+#content ul,
+#content ol {
+  padding-left: 1.6em;
+  margin-bottom: 1.2em;
 }
-li {
-  margin-bottom: 0.4em;
-}
-/* Links */
-a {
+
+/* Style dla linków */
+#content a {
   color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
-a:hover {
+
+#content a:hover {
+  color: #ff0000;
   text-decoration: underline;
 }
-/* Paragraph spacing */
-p {
-  margin: 0.9rem 0;
+
+/* Style dla obrazków */
+#content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.2rem auto;
 }
-/* RESPONSYWNOŚĆ */
+
+/* Responsywność */
 @media (max-width: 900px) {
   #sidebar {
     position: relative;
     width: 100%;
     height: auto;
-    border-right: none;
   }
+
   #content {
     margin-left: 0;
     width: 100%;
+    max-width: 100%;
     padding: 1.4rem;
   }
 }
