@@ -41,10 +41,8 @@ body {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: none; /* Usunięcie białej ramki */
-    background-color: transparent; /* Upewnienie się, że tło jest przezroczyste */
+    border: 4px solid #ffffff;
 }
-
 /* Nagłówek */
 #sidebar h1 {
     font-size: 1.4rem;
@@ -98,62 +96,44 @@ body {
     color: #ff0000 !important;
     text-decoration: underline;
 }
-/* Sekcja Umiejętności i Doświadczenie */
-#content h2 {
-  color: #2c3e50;
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 0.5rem;
-}
-
-/* Listy umiejętności */
-#content ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin: 1rem 0;
-}
-
-#content ul li {
-  margin: 0.5rem 0;
-  padding: 0.3rem 0;
+/* ============================
+   CONTENT
+============================ */
+#content {
+  margin-left: 260px;            /* przesunięcie obok sidebar */
+  padding: 2.2rem;
+  width: calc(100% - 260px);     /* zajmuje resztę szerokości */
+  background: #fff;
+  min-height: 100vh;
+  box-sizing: border-box;
   position: relative;
-  padding-left: 1.5rem;
+  z-index: 1;
 }
-
-#content ul li:before {
-  content: "•";
-  color: #007acc;
-  font-weight: bold;
-  position: absolute;
-  left: 0;
-}
-
-/* Sekcja doświadczenia zawodowego */
-#content h3 {
-  color: #2c3e50;
+/* Headings */
+h1, h2, h3, h4 {
+  color: #111;
   font-weight: 600;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
 }
-
-/* Blok z opisem stanowiska */
-#content p strong {
-  color: #2c3e50;
+/* Lists */
+ul, ol {
+  padding-left: 1.4em;
+  margin-bottom: 1em;
 }
-
-#content p {
-  margin: 0.5rem 0;
-  line-height: 1.6;
+li {
+  margin-bottom: 0.4em;
 }
-
-/* Linia oddzielająca sekcje */
-#content hr {
-  border: 0;
-  height: 1px;
-  background: #ddd;
-  margin: 2rem 0;
+/* Links */
+a {
+  color: #0066cc;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Paragraph spacing */
+p {
+  margin: 0.9rem 0;
 }
 /* RESPONSYWNOŚĆ */
 @media (max-width: 900px) {
