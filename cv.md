@@ -5,7 +5,7 @@ layout: default
 
 ## 🧑‍💼 Dane osobowe
 - **Imię i nazwisko:** Tomasz Kowalczyk
-- **Email:** tomasz.kowalczyk79@gmail.com
+- **Email:** vvvvJan@pm.me
 - **Telefon:** +48 503 392 080
 - **Adres:** Szczytno, Polska
 ## 🎓 Wykształcenie — Oś czasu
