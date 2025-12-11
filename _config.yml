@@ -10,5 +10,7 @@ menu:
     url: /about.html
   - title: Doświadczenie zawodowe
     url: /experience.html
+  - title: Umiejętności
+    url: /skills.html
   - title: CV
     url: /cv.html
