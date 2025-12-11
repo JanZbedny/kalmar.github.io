@@ -7,7 +7,7 @@ layout: default
 - Imię i Nazwisko: Tomasz Kowalczyk
 - Data urodzenia: 12.05.1979 r.
 - Telefon: +48 503 392 080
-- E-mail: tomasz.kowalczyk79@gmail.com
+- E-mail: vvvvJan@pm.me
 - Lokalizacja: Szczytno, Polska
 ## 🎓 Wykształcenie
 - 10.2007 – 04.2011 (3 lata 7 mies.)
