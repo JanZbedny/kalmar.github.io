@@ -2,7 +2,6 @@
 layout: default
 title: Doświadczenie zawodowe
 ---
-
 ## Doświadczenie zawodowe
 - 05.2019 – 12.2022 (3 lata 8 mies.)
   ds. obsługi informatycznej Urząd Gminy w Świętajnie | Grunwaldzka 15 12-140 Świętajno Krótki opis stanowiska: Administracja systemami informatycznymi, zapewnienie bezpieczeństwa, redaktor strony urzędu, zapewnienie ciągłości działania urzędu, współpraca z jednostkami      podległymi, udział w projektach unijnych, administracja lokalna Systemem Rejestrów Państwowych - Dowody Osobiste z drugą cechą biometryczną, obsługa portalu ePuap 2,administracja lokalna systemami dziedzinowymi, obsługa Biuletynu Informacji Publicznej, obsługa             transmisji obrad, edycja dokumentów dostępnych cyfrowo.
