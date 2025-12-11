@@ -98,44 +98,62 @@ body {
     color: #ff0000 !important;
     text-decoration: underline;
 }
-/* ============================
-   CONTENT
-============================ */
-#content {
-  margin-left: 260px;            /* przesunięcie obok sidebar */
-  padding: 2.2rem;
-  width: calc(100% - 260px);     /* zajmuje resztę szerokości */
-  background: #fff;
-  min-height: 100vh;
-  box-sizing: border-box;
-  position: relative;
-  z-index: 1;
-}
-/* Headings */
-h1, h2, h3, h4 {
-  color: #111;
+/* Sekcja Umiejętności i Doświadczenie */
+#content h2 {
+  color: #2c3e50;
   font-weight: 600;
-  margin-top: 1.6rem;
-  margin-bottom: 0.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
 }
-/* Lists */
-ul, ol {
-  padding-left: 1.4em;
-  margin-bottom: 1em;
+
+/* Listy umiejętności */
+#content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 1rem 0;
 }
-li {
-  margin-bottom: 0.4em;
+
+#content ul li {
+  margin: 0.5rem 0;
+  padding: 0.3rem 0;
+  position: relative;
+  padding-left: 1.5rem;
 }
-/* Links */
-a {
-  color: #0066cc;
+
+#content ul li:before {
+  content: "•";
+  color: #007acc;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
 }
-a:hover {
-  text-decoration: underline;
+
+/* Sekcja doświadczenia zawodowego */
+#content h3 {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
-/* Paragraph spacing */
-p {
-  margin: 0.9rem 0;
+
+/* Blok z opisem stanowiska */
+#content p strong {
+  color: #2c3e50;
+}
+
+#content p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+/* Linia oddzielająca sekcje */
+#content hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 2rem 0;
 }
 /* RESPONSYWNOŚĆ */
 @media (max-width: 900px) {
