@@ -1,7 +1,6 @@
 /* ============================
    GLOBAL STYLE – CLEAN THEME
 ============================ */
-
 body {
   font-family: 'Inter', sans-serif;
   font-size: 1.05rem;
@@ -11,12 +10,10 @@ body {
   margin: 0;
   padding: 0;
 }
-
 /* Box sizing */
 *, *::before, *::after {
   box-sizing: border-box;
 }
-
 /* ============================
    SIDEBAR
 ============================ */
@@ -31,8 +28,9 @@ body {
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
-
 /* Avatar / zdjęcie */
 .sidebar-photo {
     text-align: center;
@@ -45,7 +43,6 @@ body {
     object-fit: cover;
     border: 4px solid #ffffff;
 }
-
 /* Nagłówek */
 #sidebar h1 {
     font-size: 1.4rem;
@@ -54,7 +51,6 @@ body {
     font-weight: 700;
     color: white !important;
 }
-
 /* Menu linki */
 #sidebar nav ul {
     list-style: none;
@@ -75,7 +71,10 @@ body {
     color: #ff0000 !important;
     text-decoration: underline !important;
 }
-
+/* Menu rośnie normalnie */
+#sidebar nav {
+  flex-grow: 1;
+}
 /* Przycisk Pobierz CV */
 .sidebar-download {
     margin-top: auto;
@@ -97,13 +96,9 @@ body {
     color: #ff0000 !important;
     text-decoration: underline;
 }
-
-
-
 /* ============================
    CONTENT
 ============================ */
-
 #content {
   margin-left: 260px;            /* przesunięcie obok sidebar */
   padding: 2.2rem;
@@ -114,7 +109,6 @@ body {
   position: relative;
   z-index: 1;
 }
-
 /* Headings */
 h1, h2, h3, h4 {
   color: #111;
@@ -122,26 +116,21 @@ h1, h2, h3, h4 {
   margin-top: 1.6rem;
   margin-bottom: 0.6rem;
 }
-
 /* Lists */
 ul, ol {
   padding-left: 1.4em;
   margin-bottom: 1em;
 }
-
 li {
   margin-bottom: 0.4em;
 }
-
 /* Links */
 a {
   color: #0066cc;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
 /* Paragraph spacing */
 p {
   margin: 0.9rem 0;
@@ -154,73 +143,9 @@ p {
     height: auto;
     border-right: none;
   }
-
   #content {
     margin-left: 0;
     width: 100%;
     padding: 1.4rem;
   }
-}
-/* Ustawiamy sidebar jako flex column */
-#sidebar {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Menu rośnie normalnie */
-#sidebar nav {
-  flex-grow: 1;
-}
-
-/* Sekcja download przyklejona do dołu */
-.sidebar-download {
-  margin-top: auto;
-  padding-top: 20px;
-  border-top: 1px solid #ddd;
-}
-
-/* Styl przycisku */
-.download-btn {
-  display: block;
-  background: #0074d9;
-  color: #fff !important;
-  text-align: center;
-  padding: 12px 14px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.download-btn:hover {
-  background: #005bb5;
-}
-/* Naprawa nakładania się linków */
-
-#sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 260px;
-  height: 100vh;        /* wymuszamy stałą wysokość */
-  display: flex;
-  flex-direction: column;
-}
-
-#sidebar nav {
-  flex-grow: 1;
-}
-
-.sidebar-download {
-  margin-top: auto;
-  padding-top: 20px;
-  border-top: 1px solid #ddd;
-  z-index: 5;
-  position: relative;
-}
-
-#sidebar nav a,
-#sidebar nav li,
-#sidebar nav ul {
-  position: relative;
-  z-index: 10;          /* menu zawsze nad przyciskiem */
 }
